@@ -1,0 +1,43 @@
+.fail-gif {
+	padding: 10px; 
+	margin: 5px; 
+	border: 2px dashed black; 
+	width: 350px; 
+	height: auto; 
+	background: #ffc107;
+} 
+
+.col-lg-6{ 
+	text-align: center;
+} 
+
+.gif-row{
+	margin: 5px;
+} 
+
+html{
+	background: url("../images/hazard.jpg")no-repeat center center fixed; 
+	background-size: cover
+} 
+
+body{
+	background-color: transparent; 
+	color: white;
+} 
+
+h1{
+	padding:1em 0em 1.5em 0em; 
+	font-size: 50px; 
+	font-family: 'CRASSROOTSOFLREG'; 
+	transform: rotate(-8deg);
+} 
+
+#controls{
+	transform: rotate(3deg);
+} 
+
+#content{
+	transform: rotate(3deg); 
+	font-family: 'CRASSROOTSOFLREG'; 
+	font-size: 18px;
+}
