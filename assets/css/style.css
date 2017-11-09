@@ -33,11 +33,11 @@ h1{
 } 
 
 #controls{
-	transform: rotate(3deg);
+	/*transform: rotate(3deg);*/
 } 
 
 #content{
-	transform: rotate(3deg); 
+	transform: rotate(5deg); 
 	font-family: 'CRASSROOTSOFLREG'; 
 	font-size: 18px;
 }
@@ -81,3 +81,22 @@ h1{
 }
 
 
+.animate2 {
+  animation-duration: 0.5s;
+  animation-delay: 1.25s;
+  animation-fill-mode: both;
+}
+
+.fallOver {
+  animation-name: fallOver;
+}
+
+@keyframes fallOver {
+  from{
+  animation-timing-function: ease-in;
+  transform: rotate(0deg);
+}
+  to{
+    transform: rotate(5deg);
+  }
+}
